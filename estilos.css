@@ -1,0 +1,122 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-register-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-wrapper {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #78462f;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #78462f;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #78462f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .cafe-image {
+    display: block;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos específicos de la temática de la cafetería */
+  .container {
+    background-image: url('img/gallery1.jpg'); /* Ruta de la imagen de fondo de la cafetería */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-register-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(192, 44, 44, 0.3);
+  }
+  
+  .form-wrapper {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  h2 {
+    color: #78462f;
+    font-size: 24px;
+  }
+  
+  label {
+    color: #78462f;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    color: #555;
+  }
+  
+  button {
+    background-color: #78462f;
+    color: #fff;
+  }
+  
+  .error {
+    color: red;
+  }
